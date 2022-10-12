@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $((5#$(echo $WATER | tr 'water' '013234') + 5#$(echo $STIR | tr 'stir.' '01434'))) | tr '12334567' 'behlnort'
+printf "%o\n" $((5#$(echo $WATER | tr 'water' '34') + 5#$(echo $STIR | tr 'stir.' '34'))) | tr '3212345' 'behlnort'
